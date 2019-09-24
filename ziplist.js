@@ -10,7 +10,7 @@ function zipList(alpha, nums) {
 }
 console.log(zipList(list1, list2));
 
-function zipListTheSimpleWay(alpha, nums){
+function zipListTheSimpleWay(alpha, nums) {
   return _.flatten(_.zip(alpha, nums));
 }
 console.log(zipListTheSimpleWay(list1, list2));
